@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>For Kak Kitty ♡</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600&family=DM+Sans:wght@300;400;500&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="style.css">
+</head>
+
+
+<body>
+
+    <!-- DECORATIONS -->
+    <div class="floating-decoration decoration-1">✦</div>
+    <div class="floating-decoration decoration-2">♡</div>
+    <div class="floating-decoration decoration-3">✿</div>
+    <div class="floating-decoration decoration-4">✦</div>
+    <div class="floating-decoration decoration-5">♡</div>
+
+
+    <!-- MUSIC -->
+    <audio id="birthdayMusic"
+           loop
+           preload="auto">
+
+        <source src="assets/music/lagu happy birthday.mp3"
+                type="audio/mpeg">
+
+    </audio>
+
+
+    <button class="music-button"
+            id="musicButton"
+            aria-label="Music control">
+
+        ♪
+
+    </button>
+
+
+    <!-- =====================================
+         LOADING
+    ====================================== -->
+
+    <section class="page loading-page active"
+             id="loadingPage">
+
+        <div class="loading-content">
+
+            <div class="flower-loader">
+                ✿
+            </div>
+
+            <p>
+                Preparing something special
+                <br>
+                for you...
+            </p>
+
+            <div class="loading-line">
+                <span></span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         PASSWORD
+    ====================================== -->
+
+    <section class="page code-page"
+             id="codePage">
+
+        <div class="code-card">
+
+            <div class="little-flower">
+                ✿
+            </div>
+
+            <p class="small-label">
+                A LITTLE SURPRISE
+            </p>
+
+            <h1>
+                For You,
+                <span>My Sister</span>
+            </h1>
+
+            <p class="subtitle">
+                Enter your date of birth
+            </p>
+
+
+            <div class="code-dots"
+                 id="codeDots">
+
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+
+            <p class="code-message"
+               id="codeMessage">
+            </p>
+
+
+            <div class="keypad">
+
+                <button data-number="1">1</button>
+                <button data-number="2">2</button>
+                <button data-number="3">3</button>
+
+                <button data-number="4">4</button>
+                <button data-number="5">5</button>
+                <button data-number="6">6</button>
+
+                <button data-number="7">7</button>
+                <button data-number="8">8</button>
+                <button data-number="9">9</button>
+
+                <button id="clearCode">×</button>
+                <button data-number="0">0</button>
+                <button id="submitCode">↵</button>
+
+            </div>
+
+
+            <p class="hint">
+                Hint: Your Date of Birth ♡
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         GIFT
+    ====================================== -->
+
+    <section class="page gift-page"
+             id="giftPage">
+
+        <div class="gift-content">
+
+            <p class="section-small">
+                A little something for you...
+            </p>
+
+            <h2>
+                There's a gift waiting
+            </h2>
+
+            <p class="tap-text">
+                Tap the gift box to open it 🎁
+            </p>
+
+
+            <button class="gift-box"
+                    id="giftBox"
+                    aria-label="Open gift">
+
+                <div class="gift-lid">
+
+                    <div class="gift-ribbon-horizontal"></div>
+
+                    <div class="bow">
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                </div>
+
+
+                <div class="gift-body">
+
+                    <div class="gift-ribbon-vertical"></div>
+
+                    <div class="gift-ribbon-horizontal"></div>
+
+                </div>
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         MEMORIES
+    ====================================== -->
+
+    <section class="page memories-page"
+             id="memoriesPage">
+
+        <div class="memories-container">
+
+            <p class="section-small">
+                — A collection of memories —
+            </p>
+
+            <h2>
+                Memories <span> that belong to you</span>
+            </h2>
+
+            <p class="memories-subtitle">
+                Little moments worth remembering ♡
+            </p>
+
+
+            <!-- PHOTO 1 -->
+
+            <article class="polaroid photo-one"
+                     data-photo="assets/images/photo1.jpg">
+
+                <div class="tape"></div>
+
+                <img src="assets/images/photo1.jpg"
+                     alt="Memory">
+
+                <p>
+                    Little You ♡
+                </p>
+
+            </article>
+
+
+            <!-- PHOTO 2 -->
+
+            <article class="polaroid photo-two"
+                     data-photo="assets/images/photo2.jpeg">
+
+                <div class="tape"></div>
+
+                <img src="assets/images/photo2.jpeg"
+                     alt="Memory">
+
+                <p>
+                    Growing Up ✿
+                </p>
+
+            </article>
+
+
+            <!-- PHOTO 3 -->
+
+            <article class="polaroid photo-three"
+                     data-photo="assets/images/photo3.jpg">
+
+                <div class="tape"></div>
+
+                <img src="assets/images/photo3.jpg"
+                     alt="Memory">
+
+                <p>
+                    You Now—The Best Version of Yourself ♡
+                </p>
+
+            </article>
+
+
+            <button class="continue-button"
+                    id="toLetter">
+
+                Continue to the letter →
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         PHOTO FULLSCREEN
+    ====================================== -->
+
+    <div class="photo-modal"
+         id="photoModal">
+
+        <button class="photo-modal-close"
+                id="closePhoto">
+
+            ×
+
+        </button>
+
+
+        <div class="photo-modal-content">
+
+            <img id="modalImage"
+                 src=""
+                 alt="Enlarged memory">
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================
+         LETTER
+    ====================================== -->
+
+    <section class="page letter-page"
+             id="letterPage">
+
+        <div class="letter-container">
+
+            <p class="section-small">
+                Something from my heart
+            </p>
+
+
+            <h2>
+                A Letter For
+                <span>My Sister</span>
+            </h2>
+
+
+            <div class="envelope"
+                 id="envelope">
+
+                <div class="envelope-back"></div>
+
+
+                <div class="letter-paper">
+
+                    <h3>
+                        Dear Kak Kitty,
+                    </h3>
+
+
+                    <p>
+                        Hari ini, aku langitkan semua doa terbaik aku untuk kamu kak.
+                    </p>
+
+
+                    <p>
+                        Semoga dunia senantiasa menjaga kamu dimana pun kamu berada.
+                    </p>
+
+
+                    <p>
+                        Semoga hari-hari kamu selalu diiringi cinta yg tidak pernah ada batas nya,
+                    </p>
+
+
+                    <p>
+                        Dan di perputaran semesta yang ke 365, kamu berhasil untuk melalui banyak badainya.
+                    </p>
+
+
+                    <p>
+                        Selamat ya kak, menjadi salah satu manusia pilihan Allah untuk tetap singgah di bumi sampai di usia mu sekarang.
+                    </p>
+
+
+                    <p class="letter-ending">
+                        With love, ♡
+                    </p>
+
+                </div>
+
+
+                <div class="envelope-front"></div>
+
+
+                <button class="envelope-seal"
+                        aria-label="Open letter">
+
+                    ♡
+
+                </button>
+
+            </div>
+
+
+            <button class="continue-button"
+                    id="toBirthday">
+
+                One more thing... ✨
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================
+         FINAL BIRTHDAY
+    ====================================== -->
+
+    <section class="page birthday-page"
+             id="birthdayPage">
+
+        <div class="confetti-container"
+             id="confetti">
+        </div>
+
+
+        <div class="birthday-card">
+
+            <div class="cake">
+                🎂
+            </div>
+
+
+            <p class="section-small">
+                Hari Ini Milikmu
+            </p>
+
+
+            <h1>
+                Happy
+                <span>Birthday!</span>
+            </h1>
+
+
+            <p class="birthday-name">
+                Kak Kitty ✿
+            </p>
+
+
+            <p class="birthday-message">
+
+              Semoga hari-harimu dipenuhi 
+              dengan momen-momen indah,
+              senyum hangat, dan segala kebaikan 
+              yang pantas kamu dapatkan.
+
+            </p>
+
+
+            <button class="close-button"
+                    id="closeBirthday">
+
+                ♡ Made for you ♡
+
+            </button>
+
+
+            <!-- PEMBUAT -->
+
+            <p class="creator">
+                Made by
+                <span>ELFRIZA</span>
+            </p>
+
+        </div>
+
+
+        <p class="final-text">
+            — A little birthday surprise for you —
+        </p>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
